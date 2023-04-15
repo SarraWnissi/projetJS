@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital@1&display=swap");
+* {
+  background-image: url("/imagePage2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  scroll-padding: 2rem;
+}
+header .nav-container span,
+i {
+  font-size: large;
+  color: #ff523b;
+  font-weight: bold;
+}
+.nav-container {
+  max-width: 1068px;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.small-container {
+  margin: 80px auto;
+  width: 80%;
+}
+table {
+  width: 110%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart-info .deletes {
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  border:none;
+  border-bottom: solid;
+  }
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 60px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: #ff523b;
+  font-size: 12px;
+}
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table {
+  border-top: 3px solid #ff523b;
+  width: 100%;
+  max-width: 400px;
+}
